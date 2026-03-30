@@ -1,0 +1,29 @@
+import type { Metadata } from "next";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, getLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
+
+export const metadata: Metadata = {
+  title: "Smart Fuel Queue — ဆီတန်းစီ App",
+  description: "အိမ်မှ ဆီဆိုင် တန်းစီပါ",
+};
+
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  if (!routing.locales.includes(locale as "my" | "en")) {
+    notFound();
+  }
+  const messages = await getMessages();
+  return (
+    <NextIntlClientProvider messages={messages}>
+      {children}
+    </NextIntlClientProvider>
+  );
+}

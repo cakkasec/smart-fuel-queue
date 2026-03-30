@@ -1,0 +1,128 @@
+{
+  "app": {
+    "name": "Smart Fuel Queue",
+    "tagline": "အိမ်မှ တန်းစီပါ"
+  },
+  "auth": {
+    "title": "ဝင်ရောက်ရန်",
+    "phoneLabel": "ဖုန်းနံပါတ်",
+    "phonePlaceholder": "09XXXXXXXXX",
+    "sendOtp": "OTP ပို့ပေးပါ",
+    "otpLabel": "OTP ကုဒ်",
+    "otpPlaceholder": "6 လုံး ထည့်ပါ",
+    "verify": "အတည်ပြုပါ",
+    "resend": "ထပ်ပို့ပါ",
+    "resendIn": "{{seconds}} စက္ကန့်နောက် ထပ်ပို့နိုင်သည်",
+    "invalidPhone": "ဖုန်းနံပါတ် မှားနေသည်",
+    "invalidOtp": "OTP မှားသည် သို့မဟုတ် သက်တမ်းကုန်သည်",
+    "otpSent": "OTP ကို {{phone}} သို့ ပို့ပြီးပါပြီ"
+  },
+  "home": {
+    "title": "ဆီဆိုင်များ",
+    "nearbyStations": "နီးနားဆုံး ဆီဆိုင်များ",
+    "noStations": "နီးနားတွင် ဆီဆိုင် မတွေ့ပါ",
+    "queueLength": "{{count}} ဦး တန်းစီနေသည်",
+    "estimatedWait": "ခန့်မှန်း {{minutes}} မိနစ် စောင့်ရမည်",
+    "closed": "ပိတ်ထားသည်",
+    "paused": "ယာယီရပ်ဆိုင်းထားသည်",
+    "open": "ဖွင့်ထားသည်",
+    "full": "နေရာပြည့်နေသည်"
+  },
+  "station": {
+    "nowServing": "ယခု ဆောင်ရွက်နေသည်",
+    "waiting": "{{count}} ဦး တစ်ဦးနေရာ",
+    "joinQueue": "Queue ထဲဝင်ရန်",
+    "fuelType": "ဆီအမျိုးအစား",
+    "octane92": "အော့တိန် ၉၂",
+    "octane95": "အော့တိန် ၉၅",
+    "diesel": "ဒီဇယ်",
+    "requestedLiters": "လိုချင်သော ဆီပမာဏ (ဂါလံ)",
+    "litersOptional": "ရွေးချယ်ရန် (မဖြစ်မနေမဟုတ်)",
+    "available": "ရရှိနိုင်သည်",
+    "unavailable": "မရရှိနိုင်ပါ",
+    "operatingHours": "ဖွင့်ချိန်",
+    "queueClosed": "ယနေ့ Queue ပိတ်ပြီး"
+  },
+  "token": {
+    "yourToken": "သင့် Token နံပါတ်",
+    "position": "{{position}} ဦးမြောက် တန်းစီနေသည်",
+    "estimatedTime": "ခန့်မှန်းချိန် {{time}}",
+    "waiting": "စောင့်ဆိုင်းနေသည်",
+    "notified30": "မိနစ် ၃၀ အလို အကြောင်းကြားထားသည်",
+    "called": "သင့်အလှည့် ရောက်ပြီ — Gate {{gate}} သို့ လာပါ",
+    "serving": "ဆောင်ရွက်နေသည်",
+    "completed": "ပြီးဆုံးပါပြီ",
+    "skipped": "လွတ်သွားပါပြီ",
+    "cancelled": "ပယ်ဖျက်ထားသည်",
+    "cancelToken": "Token ပယ်ဖျက်ရန်",
+    "cancelConfirm": "Token ကို ပယ်ဖျက်မည်မှာ သေချာပါသလား?",
+    "cancelYes": "ဟုတ်ကဲ့ ပယ်ဖျက်ပါ",
+    "cancelNo": "မပယ်ဖျက်တော့ပါ",
+    "shareToken": "Token မျှဝေရန်",
+    "queueAt": "{{station}} ဆီဆိုင်တွင် တန်းစီနေသည်"
+  },
+  "notifications": {
+    "enableTitle": "Notification ဖွင့်ပါ",
+    "enableDesc": "မိနစ် ၃၀ အလို သတိပေးချက် ရရှိရန် Notification ဖွင့်ပေးပါ",
+    "enable": "Notification ဖွင့်ရန်",
+    "skip": "ကျော်ရန်",
+    "denied": "Notification ခွင့်မပြုပါ — App ထဲတွင်သာ ကြည့်နိုင်မည်"
+  },
+  "profile": {
+    "title": "ကျွန်ုပ်",
+    "displayName": "အမည်",
+    "vehicleType": "ယာဉ်အမျိုးအစား",
+    "car": "ကား",
+    "motorbike": "မော်တော်ဆိုင်ကယ်",
+    "truck": "ထရပ်ကား",
+    "language": "ဘာသာစကား",
+    "save": "သိမ်းဆည်းရန်",
+    "saved": "သိမ်းဆည်းပြီးပါပြီ",
+    "history": "ဆီဖြည့်မှတ်တမ်း",
+    "favorites": "အကြိုက်ဆိုင်များ",
+    "logout": "ထွက်ရန်"
+  },
+  "history": {
+    "title": "မှတ်တမ်း",
+    "noHistory": "ဆီဖြည့်မှတ်တမ်း မရှိသေးပါ",
+    "waitTime": "{{minutes}} မိနစ် စောင့်ခဲ့သည်"
+  },
+  "rating": {
+    "title": "ဆိုင်ကို ဘယ်လောက် အဆင်ပြေသလဲ?",
+    "submit": "Rating ပေးရန်",
+    "skip": "ကျော်ရန်"
+  },
+  "errors": {
+    "generic": "အမှားတစ်ခု ဖြစ်ပွားသည်။ ထပ်ကြိုးစားပါ",
+    "network": "ကွန်ယက် ချိတ်ဆက်မှု မအောင်မြင်ပါ",
+    "alreadyQueued": "ဤဆိုင်တွင် Token ရပြီးဖြစ်သည်",
+    "queueFull": "Queue ပြည့်နေသည်",
+    "queueClosed": "Queue ပိတ်နေသည်",
+    "fuelUnavailable": "ရွေးချယ်သော ဆီမျိုး မရရှိနိုင်ပါ"
+  },
+  "station_dashboard": {
+    "title": "Queue Dashboard",
+    "callNext": "နောက်တစ်ဦး ခေါ်ရန်",
+    "noWaiting": "တန်းစီနေသူ မရှိပါ",
+    "pauseQueue": "Queue ယာယီရပ်ရန်",
+    "resumeQueue": "Queue ဆက်လုပ်ရန်",
+    "closeQueue": "ယနေ့ Queue ပိတ်ရန်",
+    "openQueue": "Queue ဖွင့်ရန်",
+    "broadcast": "Message ပေးပို့ရန်",
+    "broadcastPlaceholder": "ဆီဆိုင်ထဲ တန်းစီသူများထံ message...",
+    "send": "ပို့ရန်",
+    "gate": "Gate {{number}}",
+    "skipToken": "ကျော်ရန်",
+    "completeToken": "ပြီးသည်",
+    "noShow": "မရောက်ပါ",
+    "tokenCalled": "Token {{token}} ခေါ်ပြီး",
+    "serving": "ဆောင်ရွက်နေသည်",
+    "totalToday": "ယနေ့ စုစုပေါင်း {{count}} ဦး",
+    "avgWait": "ပျမ်းမျှ {{minutes}} မိနစ်",
+    "fuelSettings": "ဆီ အရောင်းအဝယ်",
+    "queueSettings": "Queue သတ်မှတ်ချက်",
+    "analytics": "ဒေတာ ခွဲခြမ်းစိတ်ဖြာမှု",
+    "staff": "ဝန်ထမ်းများ",
+    "monitor": "မော်နီတာ ကြည့်မျက်နှာပြင်"
+  }
+}
