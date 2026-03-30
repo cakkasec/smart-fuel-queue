@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, getLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import "../globals.css";
 
 export const metadata: Metadata = {
   title: "Smart Fuel Queue — ဆီတန်းစီ App",
@@ -23,12 +22,8 @@ export default async function LocaleLayout({
   }
   const messages = await getMessages();
   return (
-    <html lang={locale} className="h-full">
-      <body className="h-full bg-background">
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider messages={messages}>
+      {children}
+    </NextIntlClientProvider>
   );
 }
