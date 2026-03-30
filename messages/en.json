@@ -1,0 +1,128 @@
+{
+  "app": {
+    "name": "Smart Fuel Queue",
+    "tagline": "Queue from Home"
+  },
+  "auth": {
+    "title": "Sign In",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "09XXXXXXXXX",
+    "sendOtp": "Send OTP",
+    "otpLabel": "OTP Code",
+    "otpPlaceholder": "Enter 6-digit code",
+    "verify": "Verify",
+    "resend": "Resend",
+    "resendIn": "Resend in {{seconds}}s",
+    "invalidPhone": "Invalid phone number",
+    "invalidOtp": "Invalid or expired OTP",
+    "otpSent": "OTP sent to {{phone}}"
+  },
+  "home": {
+    "title": "Fuel Stations",
+    "nearbyStations": "Nearby Stations",
+    "noStations": "No stations found nearby",
+    "queueLength": "{{count}} people waiting",
+    "estimatedWait": "~{{minutes}} min wait",
+    "closed": "Closed",
+    "paused": "Temporarily Paused",
+    "open": "Open",
+    "full": "Queue Full"
+  },
+  "station": {
+    "nowServing": "Now Serving",
+    "waiting": "{{count}} waiting",
+    "joinQueue": "Join Queue",
+    "fuelType": "Fuel Type",
+    "octane92": "Octane 92",
+    "octane95": "Octane 95",
+    "diesel": "Diesel",
+    "requestedLiters": "Amount needed (liters)",
+    "litersOptional": "Optional",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "operatingHours": "Operating Hours",
+    "queueClosed": "Queue closed for today"
+  },
+  "token": {
+    "yourToken": "Your Token",
+    "position": "Position {{position}} in queue",
+    "estimatedTime": "Est. time: {{time}}",
+    "waiting": "Waiting",
+    "notified30": "30-min notification sent",
+    "called": "Your turn! Come to Gate {{gate}}",
+    "serving": "Being Served",
+    "completed": "Completed",
+    "skipped": "Token Skipped",
+    "cancelled": "Cancelled",
+    "cancelToken": "Cancel Token",
+    "cancelConfirm": "Are you sure you want to cancel your token?",
+    "cancelYes": "Yes, Cancel",
+    "cancelNo": "Keep Token",
+    "shareToken": "Share Token",
+    "queueAt": "In queue at {{station}}"
+  },
+  "notifications": {
+    "enableTitle": "Enable Notifications",
+    "enableDesc": "Get a 30-minute warning before your turn",
+    "enable": "Enable Notifications",
+    "skip": "Skip",
+    "denied": "Notifications blocked — check status in app"
+  },
+  "profile": {
+    "title": "Profile",
+    "displayName": "Name",
+    "vehicleType": "Vehicle Type",
+    "car": "Car",
+    "motorbike": "Motorbike",
+    "truck": "Truck",
+    "language": "Language",
+    "save": "Save",
+    "saved": "Saved!",
+    "history": "Fuel History",
+    "favorites": "Favorite Stations",
+    "logout": "Sign Out"
+  },
+  "history": {
+    "title": "History",
+    "noHistory": "No fuel history yet",
+    "waitTime": "Waited {{minutes}} min"
+  },
+  "rating": {
+    "title": "How was your experience?",
+    "submit": "Submit Rating",
+    "skip": "Skip"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Network connection failed",
+    "alreadyQueued": "You already have a token at this station",
+    "queueFull": "Queue is full",
+    "queueClosed": "Queue is closed",
+    "fuelUnavailable": "Selected fuel type is unavailable"
+  },
+  "station_dashboard": {
+    "title": "Queue Dashboard",
+    "callNext": "Call Next",
+    "noWaiting": "No one waiting",
+    "pauseQueue": "Pause Queue",
+    "resumeQueue": "Resume Queue",
+    "closeQueue": "Close Queue for Today",
+    "openQueue": "Open Queue",
+    "broadcast": "Send Broadcast",
+    "broadcastPlaceholder": "Message to everyone in queue...",
+    "send": "Send",
+    "gate": "Gate {{number}}",
+    "skipToken": "Skip",
+    "completeToken": "Done",
+    "noShow": "No Show",
+    "tokenCalled": "Token {{token}} called",
+    "serving": "Serving",
+    "totalToday": "{{count}} served today",
+    "avgWait": "Avg {{minutes}} min wait",
+    "fuelSettings": "Fuel Availability",
+    "queueSettings": "Queue Settings",
+    "analytics": "Analytics",
+    "staff": "Staff",
+    "monitor": "Monitor Display"
+  }
+}
